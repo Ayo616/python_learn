@@ -5,11 +5,11 @@
 def querry():
 
     connection = open("data.txt")                 #利用open函数打开文件
-    for each_line in connection:                  #
+    for each_line in connection:                  #for循环迭代
         print(each_line)
 
 def insert():
-    connection2 = open("data.txt","a")
+    connection2 = open("data.txt","a")            #打开写入模式
     connection2.write("enjoy your python ")
 
 
@@ -19,7 +19,7 @@ def split_up():
     data1 = connection1.readline()
     print(data)
     print(data1)
-    (a,b) = data1.split(",",1)
+    (a,b) = data1.split(",",1)                    #分割函数，以逗号为分割，分割成两部分
     print(a)
     print(b)
 
