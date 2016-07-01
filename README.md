@@ -4,4 +4,5 @@
 2016年7月1号，第一次学习，使用书籍first of python
 
 lesson1
+
 lesson2
